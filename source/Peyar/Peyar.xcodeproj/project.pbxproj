@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0336325E1A2246F4003F9FDE /* NameInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336325D1A2246F4003F9FDE /* NameInfoTableViewController.m */; };
+		0336325F1A2246F4003F9FDE /* NameInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336325D1A2246F4003F9FDE /* NameInfoTableViewController.m */; };
+		033632621A2254A1003F9FDE /* FavoritesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033632611A2254A1003F9FDE /* FavoritesListViewController.m */; };
+		033632631A2254A1003F9FDE /* FavoritesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033632611A2254A1003F9FDE /* FavoritesListViewController.m */; };
+		039949851A1AF039000A76CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 039949841A1AF039000A76CA /* main.m */; };
+		039949881A1AF039000A76CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 039949871A1AF039000A76CA /* AppDelegate.m */; };
+		0399498E1A1AF039000A76CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0399498C1A1AF039000A76CA /* Main.storyboard */; };
+		039949901A1AF039000A76CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0399498F1A1AF039000A76CA /* Images.xcassets */; };
+		039949931A1AF039000A76CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039949911A1AF039000A76CA /* LaunchScreen.xib */; };
+		0399499F1A1AF039000A76CA /* PeyarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0399499E1A1AF039000A76CA /* PeyarTests.m */; };
+		039949AE1A1AF0A3000A76CA /* PrefixListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 039949AD1A1AF0A3000A76CA /* PrefixListViewController.m */; };
+		039949AF1A1AF0A3000A76CA /* PrefixListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 039949AD1A1AF0A3000A76CA /* PrefixListViewController.m */; };
+		039949B21A1AF2B4000A76CA /* FavDBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 039949B11A1AF2B4000A76CA /* FavDBUtil.m */; };
+		039949B31A1AF2B4000A76CA /* FavDBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 039949B11A1AF2B4000A76CA /* FavDBUtil.m */; };
+		039949C01A1AF2DC000A76CA /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 039949B61A1AF2DC000A76CA /* FMDatabase.m */; };
+		039949C11A1AF2DC000A76CA /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 039949B61A1AF2DC000A76CA /* FMDatabase.m */; };
+		039949C21A1AF2DC000A76CA /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 039949B81A1AF2DC000A76CA /* FMDatabaseAdditions.m */; };
+		039949C31A1AF2DC000A76CA /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 039949B81A1AF2DC000A76CA /* FMDatabaseAdditions.m */; };
+		039949C41A1AF2DC000A76CA /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 039949BA1A1AF2DC000A76CA /* FMDatabasePool.m */; };
+		039949C51A1AF2DC000A76CA /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 039949BA1A1AF2DC000A76CA /* FMDatabasePool.m */; };
+		039949C61A1AF2DC000A76CA /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 039949BC1A1AF2DC000A76CA /* FMDatabaseQueue.m */; };
+		039949C71A1AF2DC000A76CA /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 039949BC1A1AF2DC000A76CA /* FMDatabaseQueue.m */; };
+		039949C81A1AF2DC000A76CA /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 039949BF1A1AF2DC000A76CA /* FMResultSet.m */; };
+		039949C91A1AF2DC000A76CA /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 039949BF1A1AF2DC000A76CA /* FMResultSet.m */; };
+		039949D01A1AF39B000A76CA /* Peyar.m in Sources */ = {isa = PBXBuildFile; fileRef = 039949CF1A1AF39B000A76CA /* Peyar.m */; };
+		039949D11A1AF39B000A76CA /* Peyar.m in Sources */ = {isa = PBXBuildFile; fileRef = 039949CF1A1AF39B000A76CA /* Peyar.m */; };
+		039949D71A1AFBE9000A76CA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 039949D61A1AFBE9000A76CA /* libsqlite3.dylib */; };
+		039949D91A1AFBF0000A76CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039949D81A1AFBF0000A76CA /* Foundation.framework */; };
+		039949DB1A1AFBF7000A76CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039949DA1A1AFBF7000A76CA /* CoreGraphics.framework */; };
+		039949DD1A1AFBFC000A76CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039949DC1A1AFBFC000A76CA /* UIKit.framework */; };
+		03994A101A1F37A4000A76CA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 039949D61A1AFBE9000A76CA /* libsqlite3.dylib */; };
+		03994A121A1F3805000A76CA /* peyar.db in Resources */ = {isa = PBXBuildFile; fileRef = 03994A111A1F3805000A76CA /* peyar.db */; };
+		03994A131A1F3805000A76CA /* peyar.db in Resources */ = {isa = PBXBuildFile; fileRef = 03994A111A1F3805000A76CA /* peyar.db */; };
+		03E4C1091A221FE60033EF0B /* PeyarDBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E4C1081A221FE60033EF0B /* PeyarDBUtil.m */; };
+		03E4C10A1A221FE60033EF0B /* PeyarDBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E4C1081A221FE60033EF0B /* PeyarDBUtil.m */; };
+		03E4C10D1A2232740033EF0B /* NamesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E4C10C1A2232740033EF0B /* NamesListViewController.m */; };
+		03E4C10E1A2232740033EF0B /* NamesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E4C10C1A2232740033EF0B /* NamesListViewController.m */; };
+		03E4C1111A223C390033EF0B /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E4C1101A223C390033EF0B /* OptionsViewController.m */; };
+		03E4C1121A223C390033EF0B /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E4C1101A223C390033EF0B /* OptionsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		039949991A1AF039000A76CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 039949771A1AF039000A76CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0399497E1A1AF039000A76CA;
+			remoteInfo = Peyar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0336325C1A2246F4003F9FDE /* NameInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameInfoTableViewController.h; sourceTree = "<group>"; };
+		0336325D1A2246F4003F9FDE /* NameInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameInfoTableViewController.m; sourceTree = "<group>"; };
+		033632601A2254A1003F9FDE /* FavoritesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesListViewController.h; sourceTree = "<group>"; };
+		033632611A2254A1003F9FDE /* FavoritesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesListViewController.m; sourceTree = "<group>"; };
+		0399497F1A1AF039000A76CA /* Peyar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peyar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		039949831A1AF039000A76CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		039949841A1AF039000A76CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		039949861A1AF039000A76CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		039949871A1AF039000A76CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0399498D1A1AF039000A76CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0399498F1A1AF039000A76CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		039949921A1AF039000A76CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		039949981A1AF039000A76CA /* PeyarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeyarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0399499D1A1AF039000A76CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0399499E1A1AF039000A76CA /* PeyarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeyarTests.m; sourceTree = "<group>"; };
+		039949AC1A1AF0A3000A76CA /* PrefixListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixListViewController.h; sourceTree = "<group>"; };
+		039949AD1A1AF0A3000A76CA /* PrefixListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefixListViewController.m; sourceTree = "<group>"; };
+		039949B01A1AF2B4000A76CA /* FavDBUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavDBUtil.h; sourceTree = "<group>"; };
+		039949B11A1AF2B4000A76CA /* FavDBUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavDBUtil.m; sourceTree = "<group>"; };
+		039949B51A1AF2DC000A76CA /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		039949B61A1AF2DC000A76CA /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		039949B71A1AF2DC000A76CA /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		039949B81A1AF2DC000A76CA /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		039949B91A1AF2DC000A76CA /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		039949BA1A1AF2DC000A76CA /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		039949BB1A1AF2DC000A76CA /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		039949BC1A1AF2DC000A76CA /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		039949BD1A1AF2DC000A76CA /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		039949BE1A1AF2DC000A76CA /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		039949BF1A1AF2DC000A76CA /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		039949CE1A1AF39B000A76CA /* Peyar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peyar.h; sourceTree = "<group>"; };
+		039949CF1A1AF39B000A76CA /* Peyar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Peyar.m; sourceTree = "<group>"; };
+		039949D61A1AFBE9000A76CA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		039949D81A1AFBF0000A76CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		039949DA1A1AFBF7000A76CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		039949DC1A1AFBFC000A76CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03994A111A1F3805000A76CA /* peyar.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = peyar.db; sourceTree = "<group>"; };
+		03E4C1071A221FE60033EF0B /* PeyarDBUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeyarDBUtil.h; sourceTree = "<group>"; };
+		03E4C1081A221FE60033EF0B /* PeyarDBUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeyarDBUtil.m; sourceTree = "<group>"; };
+		03E4C10B1A2232740033EF0B /* NamesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamesListViewController.h; sourceTree = "<group>"; };
+		03E4C10C1A2232740033EF0B /* NamesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NamesListViewController.m; sourceTree = "<group>"; };
+		03E4C10F1A223C390033EF0B /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		03E4C1101A223C390033EF0B /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0399497C1A1AF039000A76CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039949DD1A1AFBFC000A76CA /* UIKit.framework in Frameworks */,
+				039949DB1A1AFBF7000A76CA /* CoreGraphics.framework in Frameworks */,
+				039949D91A1AFBF0000A76CA /* Foundation.framework in Frameworks */,
+				039949D71A1AFBE9000A76CA /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		039949951A1AF039000A76CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03994A101A1F37A4000A76CA /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		039949761A1AF039000A76CA = {
+			isa = PBXGroup;
+			children = (
+				039949DC1A1AFBFC000A76CA /* UIKit.framework */,
+				039949DA1A1AFBF7000A76CA /* CoreGraphics.framework */,
+				039949D81A1AFBF0000A76CA /* Foundation.framework */,
+				039949D61A1AFBE9000A76CA /* libsqlite3.dylib */,
+				039949811A1AF039000A76CA /* Peyar */,
+				0399499B1A1AF039000A76CA /* PeyarTests */,
+				039949801A1AF039000A76CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		039949801A1AF039000A76CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0399497F1A1AF039000A76CA /* Peyar.app */,
+				039949981A1AF039000A76CA /* PeyarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		039949811A1AF039000A76CA /* Peyar */ = {
+			isa = PBXGroup;
+			children = (
+				03994A111A1F3805000A76CA /* peyar.db */,
+				039949A81A1AF0A3000A76CA /* Engine */,
+				039949A91A1AF0A3000A76CA /* Model */,
+				039949AB1A1AF0A3000A76CA /* View */,
+				039949861A1AF039000A76CA /* AppDelegate.h */,
+				039949871A1AF039000A76CA /* AppDelegate.m */,
+				0399498C1A1AF039000A76CA /* Main.storyboard */,
+				0399498F1A1AF039000A76CA /* Images.xcassets */,
+				039949911A1AF039000A76CA /* LaunchScreen.xib */,
+				039949821A1AF039000A76CA /* Supporting Files */,
+			);
+			path = Peyar;
+			sourceTree = "<group>";
+		};
+		039949821A1AF039000A76CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				039949B41A1AF2DC000A76CA /* fmdb */,
+				039949831A1AF039000A76CA /* Info.plist */,
+				039949841A1AF039000A76CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0399499B1A1AF039000A76CA /* PeyarTests */ = {
+			isa = PBXGroup;
+			children = (
+				0399499E1A1AF039000A76CA /* PeyarTests.m */,
+				0399499C1A1AF039000A76CA /* Supporting Files */,
+			);
+			path = PeyarTests;
+			sourceTree = "<group>";
+		};
+		0399499C1A1AF039000A76CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0399499D1A1AF039000A76CA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		039949A81A1AF0A3000A76CA /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				039949B01A1AF2B4000A76CA /* FavDBUtil.h */,
+				039949B11A1AF2B4000A76CA /* FavDBUtil.m */,
+				03E4C1071A221FE60033EF0B /* PeyarDBUtil.h */,
+				03E4C1081A221FE60033EF0B /* PeyarDBUtil.m */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		039949A91A1AF0A3000A76CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				039949CE1A1AF39B000A76CA /* Peyar.h */,
+				039949CF1A1AF39B000A76CA /* Peyar.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		039949AB1A1AF0A3000A76CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				039949AC1A1AF0A3000A76CA /* PrefixListViewController.h */,
+				039949AD1A1AF0A3000A76CA /* PrefixListViewController.m */,
+				03E4C10B1A2232740033EF0B /* NamesListViewController.h */,
+				03E4C10C1A2232740033EF0B /* NamesListViewController.m */,
+				03E4C10F1A223C390033EF0B /* OptionsViewController.h */,
+				03E4C1101A223C390033EF0B /* OptionsViewController.m */,
+				0336325C1A2246F4003F9FDE /* NameInfoTableViewController.h */,
+				0336325D1A2246F4003F9FDE /* NameInfoTableViewController.m */,
+				033632601A2254A1003F9FDE /* FavoritesListViewController.h */,
+				033632611A2254A1003F9FDE /* FavoritesListViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		039949B41A1AF2DC000A76CA /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				039949B51A1AF2DC000A76CA /* FMDatabase.h */,
+				039949B61A1AF2DC000A76CA /* FMDatabase.m */,
+				039949B71A1AF2DC000A76CA /* FMDatabaseAdditions.h */,
+				039949B81A1AF2DC000A76CA /* FMDatabaseAdditions.m */,
+				039949B91A1AF2DC000A76CA /* FMDatabasePool.h */,
+				039949BA1A1AF2DC000A76CA /* FMDatabasePool.m */,
+				039949BB1A1AF2DC000A76CA /* FMDatabaseQueue.h */,
+				039949BC1A1AF2DC000A76CA /* FMDatabaseQueue.m */,
+				039949BD1A1AF2DC000A76CA /* FMDB.h */,
+				039949BE1A1AF2DC000A76CA /* FMResultSet.h */,
+				039949BF1A1AF2DC000A76CA /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0399497E1A1AF039000A76CA /* Peyar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 039949A21A1AF039000A76CA /* Build configuration list for PBXNativeTarget "Peyar" */;
+			buildPhases = (
+				0399497B1A1AF039000A76CA /* Sources */,
+				0399497C1A1AF039000A76CA /* Frameworks */,
+				0399497D1A1AF039000A76CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Peyar;
+			productName = Peyar;
+			productReference = 0399497F1A1AF039000A76CA /* Peyar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		039949971A1AF039000A76CA /* PeyarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 039949A51A1AF039000A76CA /* Build configuration list for PBXNativeTarget "PeyarTests" */;
+			buildPhases = (
+				039949941A1AF039000A76CA /* Sources */,
+				039949951A1AF039000A76CA /* Frameworks */,
+				039949961A1AF039000A76CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0399499A1A1AF039000A76CA /* PBXTargetDependency */,
+			);
+			name = PeyarTests;
+			productName = PeyarTests;
+			productReference = 039949981A1AF039000A76CA /* PeyarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		039949771A1AF039000A76CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = com.kishorek;
+				TargetAttributes = {
+					0399497E1A1AF039000A76CA = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					039949971A1AF039000A76CA = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 0399497E1A1AF039000A76CA;
+					};
+				};
+			};
+			buildConfigurationList = 0399497A1A1AF039000A76CA /* Build configuration list for PBXProject "Peyar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 039949761A1AF039000A76CA;
+			productRefGroup = 039949801A1AF039000A76CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0399497E1A1AF039000A76CA /* Peyar */,
+				039949971A1AF039000A76CA /* PeyarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0399497D1A1AF039000A76CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0399498E1A1AF039000A76CA /* Main.storyboard in Resources */,
+				03994A121A1F3805000A76CA /* peyar.db in Resources */,
+				039949931A1AF039000A76CA /* LaunchScreen.xib in Resources */,
+				039949901A1AF039000A76CA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		039949961A1AF039000A76CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03994A131A1F3805000A76CA /* peyar.db in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0399497B1A1AF039000A76CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0336325E1A2246F4003F9FDE /* NameInfoTableViewController.m in Sources */,
+				039949AE1A1AF0A3000A76CA /* PrefixListViewController.m in Sources */,
+				039949C61A1AF2DC000A76CA /* FMDatabaseQueue.m in Sources */,
+				039949881A1AF039000A76CA /* AppDelegate.m in Sources */,
+				03E4C10D1A2232740033EF0B /* NamesListViewController.m in Sources */,
+				039949851A1AF039000A76CA /* main.m in Sources */,
+				039949C01A1AF2DC000A76CA /* FMDatabase.m in Sources */,
+				039949C41A1AF2DC000A76CA /* FMDatabasePool.m in Sources */,
+				033632621A2254A1003F9FDE /* FavoritesListViewController.m in Sources */,
+				039949C81A1AF2DC000A76CA /* FMResultSet.m in Sources */,
+				03E4C1091A221FE60033EF0B /* PeyarDBUtil.m in Sources */,
+				03E4C1111A223C390033EF0B /* OptionsViewController.m in Sources */,
+				039949B21A1AF2B4000A76CA /* FavDBUtil.m in Sources */,
+				039949C21A1AF2DC000A76CA /* FMDatabaseAdditions.m in Sources */,
+				039949D01A1AF39B000A76CA /* Peyar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		039949941A1AF039000A76CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039949D11A1AF39B000A76CA /* Peyar.m in Sources */,
+				039949AF1A1AF0A3000A76CA /* PrefixListViewController.m in Sources */,
+				03E4C10E1A2232740033EF0B /* NamesListViewController.m in Sources */,
+				039949C51A1AF2DC000A76CA /* FMDatabasePool.m in Sources */,
+				033632631A2254A1003F9FDE /* FavoritesListViewController.m in Sources */,
+				03E4C10A1A221FE60033EF0B /* PeyarDBUtil.m in Sources */,
+				03E4C1121A223C390033EF0B /* OptionsViewController.m in Sources */,
+				0399499F1A1AF039000A76CA /* PeyarTests.m in Sources */,
+				0336325F1A2246F4003F9FDE /* NameInfoTableViewController.m in Sources */,
+				039949C71A1AF2DC000A76CA /* FMDatabaseQueue.m in Sources */,
+				039949B31A1AF2B4000A76CA /* FavDBUtil.m in Sources */,
+				039949C11A1AF2DC000A76CA /* FMDatabase.m in Sources */,
+				039949C91A1AF2DC000A76CA /* FMResultSet.m in Sources */,
+				039949C31A1AF2DC000A76CA /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0399499A1A1AF039000A76CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0399497E1A1AF039000A76CA /* Peyar */;
+			targetProxy = 039949991A1AF039000A76CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0399498C1A1AF039000A76CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0399498D1A1AF039000A76CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		039949911A1AF039000A76CA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				039949921A1AF039000A76CA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		039949A01A1AF039000A76CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		039949A11A1AF039000A76CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		039949A31A1AF039000A76CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = Peyar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		039949A41A1AF039000A76CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = Peyar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		039949A61A1AF039000A76CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PeyarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Peyar.app/Peyar";
+			};
+			name = Debug;
+		};
+		039949A71A1AF039000A76CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PeyarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Peyar.app/Peyar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0399497A1A1AF039000A76CA /* Build configuration list for PBXProject "Peyar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				039949A01A1AF039000A76CA /* Debug */,
+				039949A11A1AF039000A76CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		039949A21A1AF039000A76CA /* Build configuration list for PBXNativeTarget "Peyar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				039949A31A1AF039000A76CA /* Debug */,
+				039949A41A1AF039000A76CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		039949A51A1AF039000A76CA /* Build configuration list for PBXNativeTarget "PeyarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				039949A61A1AF039000A76CA /* Debug */,
+				039949A71A1AF039000A76CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 039949771A1AF039000A76CA /* Project object */;
+}
